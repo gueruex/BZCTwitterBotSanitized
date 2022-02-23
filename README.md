@@ -1,6 +1,8 @@
 # BZCTwitterBotSanitized 1.0
 Grabs all zombies below a certain rank and price then posts them to Twitter via a Pastebin link
+
 Created by Schleep Cuh#6841 (Gueruex)
+
 Any ideas or suggestions are greatly appreciated
 
 Roadmap (In no particular order)

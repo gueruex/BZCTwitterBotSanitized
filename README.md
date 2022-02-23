@@ -9,7 +9,7 @@ Roadmap (In no particular order)
 3. Add a feature to display the statistically best deal for the day. This zombie's link will be placed directly in the post and the post will feature the zombie so everyone can see it.
 4. Find a better workaround to grabbing zombies prices and state of sale until OS API supports Polygon projects
   4a. If a better workaround is found, we can begin thinking about grabbing all 10,000 zombies instead of just the top 20%
-5. ~~Actually have the zombies json in a json file instead of taking 8000 lines in main.py (Sorry i was lazy when initially making this)
+5. Actually have the zombies json in a json file instead of taking 8000 lines in main.py (Sorry i was lazy when initially making this) --DONE--
 
 https://opensea.io/collection/billionairezombiesclub
 

@@ -12,7 +12,7 @@ Future Features (In no particular order)
 3. Find a better workaround to grabbing zombies prices and state of sale until OS API supports Polygon projects
 
       3a. If a better workaround is found, we can begin thinking about grabbing all 10,000 zombies instead of just the top 20%
-4. Add multithreading with proxys and new headers to bring down run speed from 2000 seconds to 2000*(# of threads)^(-1)
+4. Add multithreading with proxys and new headers to bring down run speed from 2000 seconds to 2000*(# of threads)^(-1) seconds
       
 Finished Features      
 ----------------------------------------------------------

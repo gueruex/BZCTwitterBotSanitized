@@ -32,7 +32,7 @@ def main():
                   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Safari/537.36', #Header I use for OpenSea, can generate a new one using fake_headers library if needed
                   'Cache-Control': 'max-age=0', 'DNT': '1', 'Upgrade-Insecure-Requests': '1'} #We can generate one every few requests but fake_headers has proven unreliable and will sometimes generate bad headers.
 
-    with open('top20.json') as f: #You're gonna see a lot of opening of files
+    with open('./zombierarity.json') as f: #You're gonna see a lot of opening of files
       rankDatabase = json.load(f) #Load the rankDatabase, done in this fashion to remove 8000+ lines from main
     f.close() #And a whole lot of closing the stream
 
@@ -53,7 +53,7 @@ def main():
             1000 < foo < 2000 and price <= priceThreshold['subTwoThousand']
           ):
 
-            f.writelines(baseURL+str(rankDatabase[foo]["ID"])+ " (Rank " + str(foo) + ", " + str(price) + "Eth)\n") #Write out the line
+            f.writelines(baseURL+str(rankDatabase[foo]["ID"])+ " (Rank " + str(foo+1) + ", Rarity Score: " + rankDatabase[foo]["Score"] + ", " + str(price) + "Eth)\n") #Write out the line
 
         sleep(1) #Pls no time me out, pls OS support polygon soon
 

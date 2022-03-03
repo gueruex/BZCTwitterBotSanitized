@@ -3,6 +3,8 @@ Grabs all zombies below a certain rank and price then posts them to Twitter via 
 
 Created by Schleep Cuh#6841 (Gueruex)
 
+With much help from bToTha#2664
+
 Any ideas or suggestions are greatly appreciated
 
 Future Features (In no particular order)
